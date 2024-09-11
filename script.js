@@ -40,7 +40,7 @@ btnRoll.addEventListener('click', function() {
    
 
     dice.classList.remove('hidden');
-    dice.src = `dice-${dicenum}.png`;
+    dice.src = `assets/dice-${dicenum}.png`;
     
     if(dicenum !== 1){
         currentScore += dicenum;
